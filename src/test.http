@@ -1,0 +1,10 @@
+@baseUrl = http://localhost:3001
+
+###
+# @name generateToken
+# Simple request to generate a token (mocked)
+GET {{baseUrl}}/auth/fake-token
+
+###
+# @name heartbeat
+GET {{baseUrl}}
